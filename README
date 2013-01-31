@@ -1,1 +1,7 @@
-Hello world!
+It is a small script to split *.flac and *.ape files to *.flac tracks with *.cue sheet.
+
+To run this script you need ffmpeg, shnsplit, cuetag and cuebreakpoints installed.
+
+Unfortunately, there is no error checking, so this script can possibly damage your files, be careful!
+
+To split you should run "./bash_split.sh NAME.cue NAME.flac(.ape)"
